@@ -15,9 +15,9 @@ public class T3Ejercicio16a021026 {
      */
     public static void main(String[] args) {
         int numero = 20,contador = 0; //declaracion y asignacion de la variable
-        while (numero <= 160) { //hasta que el numero no sea 133 repite:
-            if (numero % 2 == 1){ //aquellos numeros cuyo modulo de 2 sea 0 se printean
-                System.out.println(numero + " es un numero par");
+        while (numero <= 160) { //hasta que el numero no sea 160 repite:
+            if (numero % 2 == 1){ //aquellos numeros cuyo modulo de 2 sea 1 se printean
+                System.out.println(numero + " es un numero impar");
                 contador ++;
             }
             numero ++; //se incrementa el valor de numero    
